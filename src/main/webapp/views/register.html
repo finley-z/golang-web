@@ -1,0 +1,163 @@
+<!--[if IE 8]>
+<html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]>
+<html lang="en">
+<!--<![endif]-->
+
+<!-- Head BEGIN -->
+<head>
+    <meta charset="utf-8">
+    <title>千机变科技</title>
+
+    <meta name="author" content="郑远锋">
+    <meta name="robots" content="all">
+    <meta name="keywords" content="手机报价,千机变科技,千机变通讯,水货手机报价,二手手机报价,国行手机">
+    <meta content="手机报价网" name="description">
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta property="og:site_name" content="-CUSTOMER VALUE-">
+    <meta property="og:title" content="-CUSTOMER VALUE-">
+    <meta property="og:description" content="-CUSTOMER VALUE-">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="-CUSTOMER VALUE-">
+    <!-- link to image for socio -->
+    <meta property="og:url" content="-CUSTOMER VALUE-">
+
+    <!-- 页面级别样式（CSS） -->
+    <link href="${ctx}/resource/assets/global/plugins/bootstrap-validator/css/bootstrapValidator.min.css" rel="stylesheet"/>
+    <link href="${ctx}/resource/css/common.css"  rel="stylesheet"/>
+    <style type="text/css">
+        #login-wrapper {
+            height: auto;
+            margin-top: 50px;
+            border: 1px solid #ccc;
+        }
+        .help-block {
+            display: block;
+            height: 13px;
+        }
+        body {
+            background-image: url('${ctx}/resource/assets/frontend/layout/img/background/bg1.jpg')!important;
+            background-repeat: no-repeat!important;
+            background-attachment:fixed!important;
+            background-size: cover!important;
+        }
+
+    </style>
+    <!-- 页面级别样式（CSS） -->
+</head>
+<!-- Head END -->
+
+<!-- Body BEGIN -->
+<body class="corporate">
+<!--页面头部-->
+<div class="header">
+    ${include("template/header.html","UTF-8")}
+</div>
+<!--页面头部结束-->
+<div class="main">
+    <div class="login_panel">
+        <div class="login_panel_center">
+            <div class="login_form"  id="login-wrapper">
+                <div class="login_title">
+                    注册
+                </div>
+                <!-- BEGIN LOGIN FORM -->
+                <form action="/register.do" method="post" id="registerForm" style="display: block;">
+                    <p class="hint font-red">请输入您的相关信息:</p>
+                    <div class="form-group">
+                        <label class="control-label visible-ie8 visible-ie9">用户名</label>
+                        <input class="form-control placeholder-no-fix" type="text" placeholder="用户名/手机号/邮箱"
+                               name="userName">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label visible-ie8 visible-ie9">密码</label>
+                        <input class="form-control placeholder-no-fix" type="password" placeholder="密码"
+                               name="password">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label visible-ie8 visible-ie9">确认密码</label>
+                        <input class="form-control" type="password" placeholder="确认密码" name="comfirmPsw">
+                    </div>
+
+                    <div class="form-actions">
+                        <input class="btn btn-circle blue btn-block" type="submit" value="注册"/>
+                    </div>
+                </form>
+                <!-- END LOGIN FORM -->
+            </div>
+        </div>
+
+    </div>
+</div>
+<div style="position:fixed; bottom:0;width: 100%;z-index: 999">
+    ${include("template/footer.html","UTF-8")}
+</div>
+
+<!-- 页面级别脚本（JAVASCRIPT） -->
+<script src="${ctx}/resource/assets/global/plugins/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+<!-- 页面级别脚本（JAVASCRIPT） -->
+
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        Layout.init();
+        Layout.initOWL();
+        RevosliderInit.initRevoSlider();
+        Layout.initNavScrolling();
+    });
+
+    $(function () {
+        $('#registerForm').bootstrapValidator({
+            message: 'This value is not valid',
+            fields: {
+                userName: {
+                    message: '用户名验证失败',
+                    validators: {
+                        notEmpty: {
+                            message: '用户名不能为空'
+                        },
+                        remote: {
+                        url: '${ctx}/user/isUserNameExist',      //验证地址
+                        message: '用户名已存在', //提示消息
+                        delay :  1000,          //每输入一个字符，就发ajax请求，服务器压力还是太大，设置2秒发送一次ajax（默认输入一个字符，提交一次，服务器压力太大）
+                        type: 'POST'           //请求方式
+                       }
+                    }
+                },
+                password: {
+                    message: '用户名验证失败',
+                    validators: {
+                        notEmpty: {
+                            message: '密码不能为空'
+                        },
+                        stringLength: {
+                            min: 8,
+                            max: 16,
+                            message: '密码长度必须在8到16位之间'
+                        },
+                    }
+                },
+                comfirmPsw: {
+                    validators: {
+                        notEmpty: {
+                            message: '请再次确认您的密码'
+                        },
+                        identical: {//相同
+                            field: 'password',
+                            message: '两次密码不一致'
+                        }
+                    }
+                }
+            }
+        });
+    })
+</script>
+</body>
+<!-- END BODY -->
+</html>

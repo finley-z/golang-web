@@ -1,0 +1,185 @@
+/*ɸѡ�����ʽ*/
+
+.filter-border {
+    height: 2px;
+    background: #f60;
+}
+
+#filterTable {
+
+}
+
+#filterTable td {
+    text-align: left !important;
+    vertical-align: middle !important;
+    padding: 6px !important;
+}
+
+#filterTable tr td:first-child {
+    width: 120px;
+    text-align: center !important;
+    background-color: #f3f4f6 !important;
+    font: 12px/18px arial;
+    color: #666;
+}
+
+.shop-cart-table {
+    margin-bottom: 0px;
+}
+
+.shop-cart-table td {
+    padding: 2px !important;
+    vertical-align: middle !important;
+}
+
+.filterTab {
+    padding-left: 20px;
+}
+
+.filterItem {
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 3px;
+    margin: 6px 12px 6px 0;
+    white-space: nowrap;
+    color: #0a50a1;
+    text-decoration: none;
+    font: 12px/1.5 Arial;
+}
+
+.filterItem:hover, .active {
+    color: #fff !important;
+    background: #f60;
+    text-decoration: none;
+}
+
+/*���������ʽ*/
+#orderingTab {
+    height: 36px !important;
+    border-top: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    border-left: 1px solid #DDD;
+    background-color: #f3f4f6 !important;
+}
+
+#orderingTab ul, #orderingTab li {
+    height: 35px !important;
+    line-height: 35px;
+}
+
+#orderingTab li {
+    border-left: 1px solid #DDD;
+}
+
+.keyword {
+    height: 25px;
+    margin: 5px 0px 0px 10px;
+    border: solid 1px #d8d8d8;
+}
+
+.searchBtn {
+    height: 25px;
+    margin-top: 5px;
+    outline: none !important;
+    box-shadow: none !important;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #f60;
+    border-color: #f60;
+}
+
+/*��Ʒ��ʾģʽ*/
+.displaymode {
+    width: 35px !important;
+    height: 35px;
+    line-height: 35px !important;
+    text-align: center;
+    display: inline-block;
+    color: #f60;
+    cursor: pointer;
+}
+
+.displaymode:hover {
+    background: #ffffff;
+    color: #f60 !important;
+}
+
+.d_active {
+    color: #fff !important;
+    background: #f60;
+}
+
+.pagerBar {
+    padding: 0px 10px 0px 10px !important;
+}
+
+.pagerBar span {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px !important;
+    color: #f60;
+}
+
+.prePage, .nextPage {
+    padding: 0px 10px 0px 10px !important;
+    cursor: pointer;
+}
+
+.prePage:hover, .nextPage:hover {
+    background: #d1d1d1;
+}
+
+.picture-badage {
+    color: #ffffff !important;
+    background: #E87E04 !important;
+    margin-left: 5px;
+}
+
+.img-responsive {
+    width: 260px !important;
+    height: 240px !important;
+}
+
+.quote-item {
+    font: 14px/1.5 Arial;
+    cursor: pointer;
+    display: inline-block;
+    width: 150px;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.quote-desc {
+    color: #2d2d2d;
+}
+
+.quote-price {
+    color: #f60
+}
+
+.popover {
+    max-width: 100% !important;
+    padding: 2px !important;
+}
+
+.closeBtn {
+    background-color: #ffffff;
+    color: #f60;
+    border: none;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#resultTab table tr td:nth-child(1),#resultTab table tr td:nth-child(2){
+    width: 160px!important;
+}

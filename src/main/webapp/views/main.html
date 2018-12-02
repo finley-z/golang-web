@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8">
+    <title>借贷管理系统</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+</head>
+<!-- END HEAD -->
+<body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
+<div class="page-wrapper">
+    <!--页面头部-->
+    ${include("../template/m-header.html","UTF-8")}
+    <!--页面头部-->
+    <!-- BEGIN HEADER & CONTENT DIVIDER -->
+    <div class="clearfix"></div>
+    <!-- END HEADER & CONTENT DIVIDER -->
+    <!-- BEGIN CONTAINER -->
+    <div class="page-container">
+        <!-- BEGIN SIDEBAR -->
+        <div class="page-sidebar-wrapper">
+            <!-- BEGIN SIDEBAR -->
+
+            <div class="page-sidebar navbar-collapse collapse">
+                <!-- BEGIN SIDEBAR MENU -->
+                <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true"
+                    data-slide-speed="200" style="padding-top: 20px">
+                    <li class="sidebar-toggler-wrapper hide">
+                        <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+                        <div class="sidebar-toggler">
+                            <span></span>
+                        </div>
+                        <!-- END SIDEBAR TOGGLER BUTTON -->
+                    </li>
+                    <li class="sidebar-search-wrapper" id="searchForm">
+                        <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+                        <form class="sidebar-search" method="POST">
+                            <a href="javascript:;" class="remove">
+                                <i class="icon-close"></i>
+                            </a>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="搜索...">
+                                <span class="input-group-btn">
+                                            <a href="javascript:;" class="btn submit">
+                                                <i class="icon-magnifier"></i>
+                                            </a>
+                                        </span>
+                            </div>
+                        </form>
+                        <!-- END RESPONSIVE QUICK SEARCH FORM -->
+                    </li>
+
+                </ul>
+                <!-- END SIDEBAR MENU -->
+                <!-- END SIDEBAR MENU -->
+            </div>
+            <!-- END SIDEBAR -->
+        </div>
+        <!-- END SIDEBAR -->
+        <!-- BEGIN CONTENT -->
+        <div class="page-content-wrapper">
+            <!-- BEGIN CONTENT BODY -->
+            <div class="page-content">
+                <!-- BEGIN PAGE HEADER-->
+                <!-- BEGIN PAGE BAR -->
+                <div class="page-bar">
+                    <ul class="page-breadcrumb">
+                        <li>
+                            <a href="${ctx}/main">后台管理</a>
+                            <i class="fa fa-circle"></i>
+                        </li>
+                        <li>
+                            <span id="menuName">功能菜单</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END PAGE BAR -->
+                <!-- BEGIN PAGE TITLE-->
+                <!-- END PAGE TITLE-->
+                <!-- END PAGE HEADER-->
+                <div class="page-content-body" style="margin-top: 10px;">
+
+                </div>
+            </div>
+            <!-- END CONTENT BODY -->
+        </div>
+        <!-- END CONTENT -->
+    </div>
+    <!-- END CONTAINER -->
+
+    <!--修改密码弹出框-->
+    <div id="passwordModal" class="modal fade" tabindex="-1" data-focus-on="input:first">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <h4 class="modal-title">
+                <i class="icon-bubble font-green-sharp"></i>
+                <span class="caption-subject font-green-sharp bold uppercase">修改密码</span>
+            </h4>
+        </div>
+        <div class="modal-body">
+            <div class="portlet-body form">
+                <form id="passwordForm">
+                    <div class="form-group" id="orignalPsw">
+                        <label class="control-label">原始密码</label>
+                        <input name="orignalPassword" type="password" class="form-control"/>
+                        <span class="help-block"></span>
+                    </div>
+                    <div class="form-group" id="password">
+                        <label class="control-label">新密码</label>
+                        <input name="password" type="password" class="form-control"/>
+                        <span class="help-block"></span>
+                    </div>
+                    <div class="form-group" id="confirmPsw">
+                        <label class="control-label">确认新密码</label>
+                        <input name="comfirmPsw" type="password" class="form-control"/>
+                        <span class="help-block"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="btn default">取消</button>
+            <button type="button" id="modifyPassword" class="btn green">提交</button>
+        </div>
+    </div>
+    <!--页面底部-->
+    ${include("../template/m-footer.html","UTF-8")}
+    <!--页面底部-->
+</div>
+<div class="quick-nav-overlay"></div>
+<!-- END QUICK NAV -->
+
+<script type="text/javascript">
+    var showToast = '${showToast}';
+
+    $(function () {
+        $("#modify-password").click(function () {
+            $('#passwordModal').modal('show');
+        })
+
+        $('#passwordForm').bootstrapValidator({
+            message: 'This value is not valid',
+            submitButtons: '#modifyPassword',
+            fields: {
+                orignalPassword: {
+                    message: '原始密码验证失败',
+                    validators: {
+                        notEmpty: {
+                            message: '原始密码不能为空'
+                        }
+                    }
+                },
+                password: {
+                    message: '新密码验证失败',
+                    validators: {
+                        notEmpty: {
+                            message: '密码不能为空'
+                        }
+                    }
+                },
+                comfirmPsw: {
+                    message: '确认密码验证失败',
+                    validators: {
+                        notEmpty: {
+                            message: '密码不能为空'
+                        },
+                        identical: {//相同
+                            field: 'password',
+                            message: '两次密码不一致'
+                        }
+                    }
+                }
+            }
+        });
+        $("#modifyPassword").click(function () {
+            var bv = $("#passwordForm").data('bootstrapValidator');
+            bv.validate();
+            if (bv.isValid()) {
+                $.ajax({
+                    url: "${ctx}/user/modifyPassword",
+                    method: "post",
+                    data: $("#passwordForm").serialize(),
+                    success: function (data) {
+                        data = eval(data);
+                        if (data.status) {
+                            swal("Oops...", "修改成功!", "success");
+                            $('#passwordModal').modal('hide');
+                        } else {
+                            var confirmPasswordTips = data.confirmPasswordTips;
+                            var passwordTips = data.passwordTips;
+                            var orignalPasswordTips = data.orignalPasswordTips;
+                            if (orignalPasswordTips != null && orignalPasswordTips != '' && orignalPasswordTips != undefined) {
+                                $("#orignalPsw").addClass("has-error");
+                                $("#orignalPsw .help-block").text(orignalPasswordTips);
+                            }
+                            if (passwordTips != null && passwordTips != '' && passwordTips != undefined) {
+                                $("#password").addClass("has-error");
+                                $("#password .help-block").text(passwordTips);
+                            }
+                            if (confirmPasswordTips != null && confirmPasswordTips != '' && confirmPasswordTips != undefined) {
+                                $("#confirmPsw").addClass("has-error");
+                                $("#confirmPsw .help-block").text(confirmPasswordTips);
+                            }
+                        }
+                    }
+                });
+            }
+        });
+
+        //显示需要催收的信息
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "positionClass": "toast-bottom-right",
+            "onclick": null,
+            "showDuration": "2000",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+        if (showToast) {
+            $.ajax({
+                url: ctx + "/business/get_shouldcall",
+                method: "post",
+                async: false,
+                success: function (data) {
+                    data = eval(data);
+                    if (data != undefined && data != null) {
+                        var totalCount = data.totalCount;
+                        if (totalCount != undefined && totalCount != null && totalCount > 0) {
+                            toastr.info("温馨提示：您当前有 " + totalCount + " 笔订单需要催收，总金额为：" + data.totalLendAmount + "元，成本 " + data.totalCost + "元");
+                        }
+                    }
+                }
+            });
+        }
+    })
+</script>
+</body>
+</html>

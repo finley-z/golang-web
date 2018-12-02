@@ -1,0 +1,198 @@
+<!--[if IE 8]>
+<html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]>
+<html lang="en"><![endif]-->
+
+<!-- Head BEGIN -->
+<head>
+    <meta charset="utf-8">
+    <title>千机变科技</title>
+
+    <meta name="author" content="郑远锋">
+    <meta name="robots" content="all">
+    <meta name="keywords" content="手机报价,千机变科技,千机变通讯,水货手机报价,二手手机报价,国行手机">
+    <meta content="手机报价网" name="description">
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta property="og:site_name" content="-CUSTOMER VALUE-">
+    <meta property="og:title" content="-CUSTOMER VALUE-">
+    <meta property="og:description" content="-CUSTOMER VALUE-">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="-CUSTOMER VALUE-">
+    <meta property="og:url" content="-CUSTOMER VALUE-">
+
+    <!-- 页面级别样式（CSS） -->
+    <link href="${ctx}/resource/assets/global/plugins/bootstrap-validator/css/bootstrapValidator.min.css"  rel="stylesheet"/>
+    <link href="${ctx}/resource/css/common.css"  rel="stylesheet"/>
+
+    <style type="text/css">
+
+        .help-block {
+            display: block;
+            height: 13px !important;
+            color: #e73d4a !important;
+        }
+
+        body {
+            background-image: url('${ctx}/resource/assets/frontend/layout/img/background/bg2.jpg')!important;
+            background-repeat: no-repeat!important;
+            background-attachment:fixed!important;
+            background-size: cover!important;
+        }
+
+    </style>
+    <!-- 页面级别样式（CSS） -->
+
+</head>
+<!-- Head END -->
+
+<!-- Body BEGIN -->
+<body class="corporate">
+<!--页面头部-->
+<div class="header">
+    ${include("template/header.html","UTF-8")}
+</div>
+<!--页面头部结束-->
+<div class="main">
+
+    <div class="login_panel">
+        <div class="login_panel_center">
+            <div class="login_form"  id="login-wrapper">
+                <div class="login_title">
+                    登录
+                </div>
+                <!-- BEGIN LOGIN FORM -->
+                <form id="loginForm" action="${ctx}/user/login.do" method="post">
+                    <div class="form-group" id="name_field">
+                        <div class="input-group">
+                        <span class="input-group-addon">
+                               <i class="fa fa-user"></i>
+                        </span>
+                            <input type="text" id="userName" class="form-control" placeholder="手机号/邮箱/昵称"
+                                   name="userName"/>
+                        </div>
+                        <span class="help-block">
+                            <!--#if(userNameTips)-->
+                                ${userNameTips}
+                            <!--#end-->
+                         </span>
+                    </div>
+
+                    <div class="form-group" id="psw_field">
+                        <div class="input-group">
+                        <span class="input-group-addon">
+                               <i class="fa fa-lock"></i>
+                        </span>
+                            <input type="password" class="form-control" placeholder="密码" name="password">
+                        </div>
+                           <span class="help-block">
+                            <!--#if(passwordTips)-->
+                                ${passwordTips}
+                               <!--#end-->
+                         </span>
+                    </div>
+                    <div class="form-group" id="validate_field">
+                        <div class="input-group">
+                                 <span class="input-group-addon">
+                                     <i class="fa  fa-check-square"></i>
+                                </span>
+                            <input class="form-control has" type="text" name="validateCode"
+                                   placeholder="验证码">
+                                <span class="input-group-btn">
+                                    <div style="background: cornflowerblue;border: 1px solid #ccc">
+                                        <a href="javascript:;" class="valify-code" title="看不清楚？换一张"
+                                           onclick="$('#imgId').attr('src','${ctx}/validateCode.do?'+new Date().getTime())">
+                                            <img id="imgId" alt="验证码" src="${ctx}/validateCode.do" height="32px"
+                                                 width="120">
+                                        </a>
+                                    </div>
+                                </span>
+                        </div>
+                           <span class="help-block">
+                            <!--#if(validateTips)-->
+                                ${validateTips}
+                               <!--#end-->
+                         </span>
+                    </div>
+
+                    <div class="form-actions">
+                        <label class="rememberme check mt-checkbox mt-checkbox-outline" style="float: left">
+                            <input type="checkbox" name="remember" value="1"/>记住用户名
+                            <span></span>
+                        </label>
+                        <!--<a href="javascript:;" id="forget-password" class="forget-password"-->
+                           <!--style="float: right">忘记密码?</a>-->
+                    </div>
+                    <div class="form-group">
+                        <p>
+                            <button type="submit" class="btn btn-circle green btn-block">登录</button>
+                        </p>
+                    </div>
+                </form>
+                <!-- END LOGIN FORM -->
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="position:fixed; bottom:0;width: 100%;z-index: 999">
+    ${include("template/footer.html","UTF-8")}
+</div>
+
+<!-- 页面级别脚本（JAVASCRIPT） -->
+<script src="${ctx}/resource/assets/global/plugins/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+<!-- 页面级别脚本（JAVASCRIPT） -->
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        //从cookie获取用户名
+//        $("#userName").val(getCookie("USER_NAME"));
+//        console.info(getCookie("USER_NAME"));
+        Layout.init();
+        Layout.initOWL();
+        RevosliderInit.initRevoSlider();
+
+
+        $('#loginForm').bootstrapValidator({
+            message: 'This value is not valid',
+            fields: {
+                userName: {
+                    message: '用户名验证失败',
+                    validators: {
+                        notEmpty: {
+                            message: '用户名不能为空'
+                        }
+                    }
+                },
+                password: {
+                    message: '用户名验证失败',
+                    validators: {
+                        notEmpty: {
+                            message: '密码不能为空'
+                        }
+                    }
+                }
+            }
+        });
+        var input_name = '${input}';
+        $("#userName").val(input_name);
+        var validate_field = '${validateTips}';
+        var name_field = '${userNameTips}';
+        var psw_name = '${passwordTips}';
+        if (validate_field != null && validate_field != '' && validate_field != undefined) {
+            $("#validate_field").addClass("has-error");
+        }
+        if (name_field != null && name_field != '' && name_field != undefined) {
+            $("#name_field").addClass("has-error");
+        }
+        if (psw_name != null && psw_name != '' && psw_name != undefined) {
+            $("#psw_name").addClass("has-error");
+        }
+    });
+</script>
+</body>
+<!-- END BODY -->
+</html>
