@@ -25,8 +25,8 @@
     <meta property="og:url" content="-CUSTOMER VALUE-">
 
     <!-- 页面级别样式（CSS） -->
-    <link href="${ctx}/resource/assets/global/plugins/bootstrap-validator/css/bootstrapValidator.min.css"  rel="stylesheet"/>
-    <link href="${ctx}/resource/css/common.css"  rel="stylesheet"/>
+    <link href="/resource/assets/global/plugins/bootstrap-validator/css/bootstrapValidator.min.css"  rel="stylesheet"/>
+    <link href="/resource/css/common.css"  rel="stylesheet"/>
 
     <style type="text/css">
 
@@ -37,7 +37,7 @@
         }
 
         body {
-            background-image: url('${ctx}/resource/assets/frontend/layout/img/background/bg2.jpg')!important;
+            background-image: url('/resource/assets/frontend/layout/img/background/bg2.jpg')!important;
             background-repeat: no-repeat!important;
             background-attachment:fixed!important;
             background-size: cover!important;
@@ -53,7 +53,7 @@
 <body class="corporate">
 <!--页面头部-->
 <div class="header">
-    ${include("template/header.html","UTF-8")}
+    {{ template "header.html" }}
 </div>
 <!--页面头部结束-->
 <div class="main">
@@ -65,7 +65,7 @@
                     登录
                 </div>
                 <!-- BEGIN LOGIN FORM -->
-                <form id="loginForm" action="${ctx}/user/login.do" method="post">
+                <form id="loginForm" action="/user/login.do" method="post">
                     <div class="form-group" id="name_field">
                         <div class="input-group">
                         <span class="input-group-addon">
@@ -75,9 +75,7 @@
                                    name="userName"/>
                         </div>
                         <span class="help-block">
-                            <!--#if(userNameTips)-->
-                                ${userNameTips}
-                            <!--#end-->
+
                          </span>
                     </div>
 
@@ -89,9 +87,7 @@
                             <input type="password" class="form-control" placeholder="密码" name="password">
                         </div>
                            <span class="help-block">
-                            <!--#if(passwordTips)-->
-                                ${passwordTips}
-                               <!--#end-->
+
                          </span>
                     </div>
                     <div class="form-group" id="validate_field">
@@ -104,17 +100,15 @@
                                 <span class="input-group-btn">
                                     <div style="background: cornflowerblue;border: 1px solid #ccc">
                                         <a href="javascript:;" class="valify-code" title="看不清楚？换一张"
-                                           onclick="$('#imgId').attr('src','${ctx}/validateCode.do?'+new Date().getTime())">
-                                            <img id="imgId" alt="验证码" src="${ctx}/validateCode.do" height="32px"
+                                           onclick="$('#imgId').attr('src','/validateCode.do?'+new Date().getTime())">
+                                            <img id="imgId" alt="验证码" src="/validateCode.do" height="32px"
                                                  width="120">
                                         </a>
                                     </div>
                                 </span>
                         </div>
                            <span class="help-block">
-                            <!--#if(validateTips)-->
-                                ${validateTips}
-                               <!--#end-->
+
                          </span>
                     </div>
 
@@ -140,11 +134,11 @@
 </div>
 
 <div style="position:fixed; bottom:0;width: 100%;z-index: 999">
-    ${include("template/footer.html","UTF-8")}
+{{ template "footer.html" }}
 </div>
 
 <!-- 页面级别脚本（JAVASCRIPT） -->
-<script src="${ctx}/resource/assets/global/plugins/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+<script src="/resource/assets/global/plugins/bootstrap-validator/js/bootstrapValidator.min.js"></script>
 <!-- 页面级别脚本（JAVASCRIPT） -->
 <script type="text/javascript">
     jQuery(document).ready(function () {

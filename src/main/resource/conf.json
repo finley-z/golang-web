@@ -1,0 +1,18 @@
+{
+  "app_name":"credit",
+  "app_home":"/Users/finley/Documents/代码管理/golang-web/src/main",
+  "web_app":{
+     "template_dir":"/webapp/views",
+     "static_dir":"/webapp/resource"
+  },
+  "data_source": {
+    "driver_name":"",
+    "host_name":"",
+    "user_name":"",
+    "password":"",
+    "database":""
+  },
+  "redis":{
+
+  }
+}

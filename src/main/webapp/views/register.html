@@ -28,8 +28,8 @@
     <meta property="og:url" content="-CUSTOMER VALUE-">
 
     <!-- 页面级别样式（CSS） -->
-    <link href="${ctx}/resource/assets/global/plugins/bootstrap-validator/css/bootstrapValidator.min.css" rel="stylesheet"/>
-    <link href="${ctx}/resource/css/common.css"  rel="stylesheet"/>
+    <link href="/resource/assets/global/plugins/bootstrap-validator/css/bootstrapValidator.min.css" rel="stylesheet"/>
+    <link href="/resource/css/common.css"  rel="stylesheet"/>
     <style type="text/css">
         #login-wrapper {
             height: auto;
@@ -41,7 +41,7 @@
             height: 13px;
         }
         body {
-            background-image: url('${ctx}/resource/assets/frontend/layout/img/background/bg1.jpg')!important;
+            background-image: url('/resource/assets/frontend/layout/img/background/bg1.jpg')!important;
             background-repeat: no-repeat!important;
             background-attachment:fixed!important;
             background-size: cover!important;
@@ -56,7 +56,7 @@
 <body class="corporate">
 <!--页面头部-->
 <div class="header">
-    ${include("template/header.html","UTF-8")}
+{{ template "header.html" }}
 </div>
 <!--页面头部结束-->
 <div class="main">
@@ -97,11 +97,11 @@
     </div>
 </div>
 <div style="position:fixed; bottom:0;width: 100%;z-index: 999">
-    ${include("template/footer.html","UTF-8")}
+{{ template "footer.html" }}
 </div>
 
 <!-- 页面级别脚本（JAVASCRIPT） -->
-<script src="${ctx}/resource/assets/global/plugins/bootstrap-validator/js/bootstrapValidator.min.js"></script>
+<script src="/resource/assets/global/plugins/bootstrap-validator/js/bootstrapValidator.min.js"></script>
 <!-- 页面级别脚本（JAVASCRIPT） -->
 
 <script type="text/javascript">
@@ -123,7 +123,7 @@
                             message: '用户名不能为空'
                         },
                         remote: {
-                        url: '${ctx}/user/isUserNameExist',      //验证地址
+                        url: '/user/isUserNameExist',      //验证地址
                         message: '用户名已存在', //提示消息
                         delay :  1000,          //每输入一个字符，就发ajax请求，服务器压力还是太大，设置2秒发送一次ajax（默认输入一个字符，提交一次，服务器压力太大）
                         type: 'POST'           //请求方式
