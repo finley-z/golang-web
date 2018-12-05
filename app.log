@@ -57,3 +57,462 @@
 2018-12-05 16:55:37 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /user/isUserNameExist ] the remote address is: [::1]:50798
 2018-12-05 16:55:48 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /user/isUserNameExist ] the remote address is: [::1]:50836
 2018-12-05 17:51:09 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /favicon.ico ] the remote address is: 127.0.0.1:52759
+2018-12-05 20:49:29 [INFO] [main/credit/core/Server.go:58] init serveMux success !
+2018-12-05 20:49:29 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ / ]
+2018-12-05 20:49:29 [INFO] [main/credit/core/Server.go:44] the controller  /  register success !
+2018-12-05 20:49:29 [INFO] [main/credit/core/Server.go:51] attempt register the controller[ /resource/ ]
+2018-12-05 20:49:29 [INFO] [main/credit/core/Server.go:53] the controller  /resource/  register success !
+2018-12-05 20:49:29 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /main ]
+2018-12-05 20:49:29 [INFO] [main/credit/core/Server.go:44] the controller  /main  register success !
+2018-12-05 20:49:29 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /login ]
+2018-12-05 20:49:29 [INFO] [main/credit/core/Server.go:44] the controller  /login  register success !
+2018-12-05 20:49:29 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /register ]
+2018-12-05 20:49:29 [INFO] [main/credit/core/Server.go:44] the controller  /register  register success !
+2018-12-05 20:49:29 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-05 20:49:29 [INFO] [main/credit/core/Server.go:21] server starting.... , the port is: :8080
+2018-12-05 20:49:40 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ / ] the remote address is: [::1]:55666
+2018-12-05 20:49:40 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:55666
+2018-12-05 20:49:43 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ / ] the remote address is: [::1]:55666
+2018-12-05 20:49:43 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:55666
+2018-12-05 20:49:49 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:55666
+2018-12-05 20:58:04 [INFO] [main/credit/core/Server.go:58] init serveMux success !
+2018-12-05 20:58:04 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ / ]
+2018-12-05 20:58:04 [INFO] [main/credit/core/Server.go:44] the controller  /  register success !
+2018-12-05 20:58:04 [INFO] [main/credit/core/Server.go:51] attempt register the controller[ /resource/ ]
+2018-12-05 20:58:04 [INFO] [main/credit/core/Server.go:53] the controller  /resource/  register success !
+2018-12-05 20:58:04 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /main.html ]
+2018-12-05 20:58:04 [INFO] [main/credit/core/Server.go:44] the controller  /main.html  register success !
+2018-12-05 20:58:04 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /login.html ]
+2018-12-05 20:58:04 [INFO] [main/credit/core/Server.go:44] the controller  /login.html  register success !
+2018-12-05 20:58:04 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /register.html ]
+2018-12-05 20:58:04 [INFO] [main/credit/core/Server.go:44] the controller  /register.html  register success !
+2018-12-05 20:58:04 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-05 20:58:04 [INFO] [main/credit/core/Server.go:21] server starting.... , the port is: :8080
+2018-12-05 20:58:09 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /login ] the remote address is: [::1]:55943
+2018-12-05 20:58:16 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:55943
+2018-12-05 22:32:12 [INFO] [main/credit/core/Server.go:58] init serveMux success !
+2018-12-05 22:32:12 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ / ]
+2018-12-05 22:32:12 [INFO] [main/credit/core/Server.go:44] the controller  /  register success !
+2018-12-05 22:32:12 [INFO] [main/credit/core/Server.go:51] attempt register the controller[ /resource/ ]
+2018-12-05 22:32:12 [INFO] [main/credit/core/Server.go:53] the controller  /resource/  register success !
+2018-12-05 22:32:12 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /main.html ]
+2018-12-05 22:32:12 [INFO] [main/credit/core/Server.go:44] the controller  /main.html  register success !
+2018-12-05 22:32:12 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /login.html ]
+2018-12-05 22:32:12 [INFO] [main/credit/core/Server.go:44] the controller  /login.html  register success !
+2018-12-05 22:32:12 [INFO] [main/credit/common/dao/DBHolder.go:20] init DBHolder the config is : {    }
+2018-12-05 22:32:12 [EROR] [main/credit/common/dao/DBHolder.go:24] init DBHolder error:sql: unknown driver "" (forgotten import?)
+2018-12-05 22:33:47 [INFO] [main/credit/core/Server.go:58] init serveMux success !
+2018-12-05 22:33:47 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ / ]
+2018-12-05 22:33:47 [INFO] [main/credit/core/Server.go:44] the controller  /  register success !
+2018-12-05 22:33:47 [INFO] [main/credit/core/Server.go:51] attempt register the controller[ /resource/ ]
+2018-12-05 22:33:47 [INFO] [main/credit/core/Server.go:53] the controller  /resource/  register success !
+2018-12-05 22:33:47 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /main.html ]
+2018-12-05 22:33:47 [INFO] [main/credit/core/Server.go:44] the controller  /main.html  register success !
+2018-12-05 22:33:47 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /login.html ]
+2018-12-05 22:33:47 [INFO] [main/credit/core/Server.go:44] the controller  /login.html  register success !
+2018-12-05 22:33:47 [INFO] [main/credit/common/dao/DBHolder.go:20] init DBHolder the config is : {mysql 47.104.15.216  root Wp123456! loan_sys}
+2018-12-05 22:33:47 [EROR] [main/credit/common/dao/DBHolder.go:24] init DBHolder error:sql: unknown driver "mysql" (forgotten import?)
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:58] init serveMux success !
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ / ]
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:44] the controller  /  register success !
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:51] attempt register the controller[ /resource/ ]
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:53] the controller  /resource/  register success !
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /main.html ]
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:44] the controller  /main.html  register success !
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /login.html ]
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:44] the controller  /login.html  register success !
+2018-12-05 22:34:55 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216  root Wp123456! loan_sys}
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /register.html ]
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:44] the controller  /register.html  register success !
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /register ]
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:44] the controller  /register  register success !
+2018-12-05 22:34:55 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-05 22:34:55 [INFO] [main/credit/core/Server.go:21] server starting.... , the port is: :8080
+2018-12-05 22:35:15 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:57298
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:58] init serveMux success !
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ / ]
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:44] the controller  /  register success !
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:51] attempt register the controller[ /resource/ ]
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:53] the controller  /resource/  register success !
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /main.html ]
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:44] the controller  /main.html  register success !
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /login.html ]
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:44] the controller  /login.html  register success !
+2018-12-05 22:36:27 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216  root Wp123456! loan_sys}
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /register.html ]
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:44] the controller  /register.html  register success !
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /register ]
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:44] the controller  /register  register success !
+2018-12-05 22:36:27 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-05 22:36:27 [INFO] [main/credit/core/Server.go:21] server starting.... , the port is: :8080
+2018-12-05 22:36:34 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:57312
+2018-12-05 22:36:43 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:37:13 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:58] init serveMux success !
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ / ]
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:44] the controller  /  register success !
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:51] attempt register the controller[ /resource/ ]
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:53] the controller  /resource/  register success !
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /main.html ]
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:44] the controller  /main.html  register success !
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /login.html ]
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:44] the controller  /login.html  register success !
+2018-12-05 22:49:20 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216  root Wp123456! loan_sys}
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /register.html ]
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:44] the controller  /register.html  register success !
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /register ]
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:44] the controller  /register  register success !
+2018-12-05 22:49:20 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-05 22:49:20 [INFO] [main/credit/core/Server.go:21] server starting.... , the port is: :8080
+2018-12-05 22:49:24 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:57440
+2018-12-05 22:49:30 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:50:00 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 22:51:09 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216  root Wp123456! loan_sys}
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 22:51:09 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 22:51:09 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 22:51:24 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216  root Wp123456! loan_sys}
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 22:51:24 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 22:51:24 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 22:51:32 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:52:02 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 22:54:32 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216  root Wp123456! loan_sys}
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 22:54:32 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 22:54:32 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 22:55:25 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 22:55:25 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 22:55:25 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 22:55:30 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:55:30 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:55:30 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:55:38 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:55:38 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:55:38 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:56:22 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:57514
+2018-12-05 22:56:33 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:56:33 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:56:33 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 22:58:55 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 22:58:55 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 22:58:55 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 22:59:03 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:59:03 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 22:59:03 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:00:41 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:00:41 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:00:41 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:00:48 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:00:48 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:00:48 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:02:03 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:02:03 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:02:03 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:02:35 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:02:35 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:02:35 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:03:26 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:03:26 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:03:26 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:03:41 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:03:41 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:03:41 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:04:05 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:04:05 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:04:05 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:04:09 [INFO] [main/credit/register/dao/RegisterDao.go:14] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:04:09 [INFO] [main/credit/register/dao/RegisterDao.go:14] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:04:09 [INFO] [main/credit/register/dao/RegisterDao.go:14] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:04:18 [INFO] [main/credit/register/dao/RegisterDao.go:14] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:04:18 [INFO] [main/credit/register/dao/RegisterDao.go:14] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:04:18 [INFO] [main/credit/register/dao/RegisterDao.go:14] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:05:32 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:05:32 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:05:32 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:05:43 [INFO] [main/credit/register/dao/RegisterDao.go:14] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:05:43 [INFO] [main/credit/register/dao/RegisterDao.go:14] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:05:43 [INFO] [main/credit/register/dao/RegisterDao.go:14] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:06:31 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:06:31 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:06:31 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:06:36 [INFO] [main/credit/register/dao/RegisterDao.go:13] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:08:02 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:08:02 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:08:02 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:08:07 [INFO] [main/credit/register/dao/RegisterDao.go:13] insert into user_info (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:08:07 [EROR] [main/credit/register/dao/RegisterDao.go:18] insert  error:Error 1146: Table 'loan_sys.user_info' doesn't exist
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:08:37 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:08:37 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:08:37 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:08:43 [INFO] [main/credit/register/dao/RegisterDao.go:13] insert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:08:44 [EROR] [main/credit/register/dao/RegisterDao.go:18] insert  error:sql: expected 6 arguments, got 7
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:09:08 [INFO] [main/credit/common/dao/DBHolder.go:23] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:09:08 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:09:08 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:09:13 [INFO] [main/credit/register/dao/RegisterDao.go:13] insert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:10:44 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:10:44 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:10:44 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:10:52 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:57774
+2018-12-05 23:11:00 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:11:00 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:11:00 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:11:33 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:11:33 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:11:33 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:11:43 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:11:43 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:11:43 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:11:44 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:11:45 [EROR] [main/credit/register/dao/RegisterDao.go:16] insert  error:Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'nsert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?' at line 1
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-05 23:11:55 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-05 23:11:55 [INFO] [main/main.go:14] application  credit starting... 
+2018-12-05 23:11:55 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-05 23:11:58 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-05 23:12:04 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:57792
+2018-12-05 23:12:11 [INFO] [main/credit/register/dao/RegisterDao.go:12] insert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)

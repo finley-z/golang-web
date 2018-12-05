@@ -37,7 +37,7 @@ func init()  {
 
 	core.RegisterFunc("/",NotFoundHandler)
 	core.RegisterHandler("/resource/", http.StripPrefix("/resource", http.FileServer(http.Dir(common.AppConf.AppHome+common.AppConf.WebApp.StaticDir))))
-	core.RegisterFunc("/main",mange)
+	core.RegisterFunc("/main.html",mange)
 	//fmt.Println("main controller register success!")
 
 }

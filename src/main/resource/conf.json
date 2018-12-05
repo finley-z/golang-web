@@ -7,11 +7,11 @@
      "static_dir":"/webapp/resource"
   },
   "data_source": {
-    "driver_name":"",
-    "host_name":"",
-    "user_name":"",
-    "password":"",
-    "database":""
+    "driver_name":"mysql",
+    "host_name":"47.104.15.216",
+    "user_name":"root",
+    "password":"Wp123456!",
+    "database":"loan_sys"
   },
   "redis":{
 

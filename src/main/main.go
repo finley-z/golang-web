@@ -5,6 +5,7 @@ import (
 	_"main/credit/manage/controller"
 	_"main/credit/login/controller"
 	_"main/credit/register/controller"
+	//_"main/credit/common/dao"
 	"main/credit/components/logger"
 	"main/credit/common"
 )
