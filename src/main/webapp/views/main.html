@@ -225,22 +225,22 @@
             "showMethod": "fadeIn",
             "hideMethod": "fadeOut"
         }
-        if (showToast) {
-            $.ajax({
-                url: ctx + "/business/get_shouldcall",
-                method: "post",
-                async: false,
-                success: function (data) {
-                    data = eval(data);
-                    if (data != undefined && data != null) {
-                        var totalCount = data.totalCount;
-                        if (totalCount != undefined && totalCount != null && totalCount > 0) {
-                            toastr.info("温馨提示：您当前有 " + totalCount + " 笔订单需要催收，总金额为：" + data.totalLendAmount + "元，成本 " + data.totalCost + "元");
-                        }
-                    }
-                }
-            });
-        }
+        // if (showToast) {
+            // $.ajax({
+            //     url: ctx + "/business/get_shouldcall",
+            //     method: "post",
+            //     async: false,
+            //     success: function (data) {
+            //         data = eval(data);
+            //         if (data != undefined && data != null) {
+            //             var totalCount = data.totalCount;
+            //             if (totalCount != undefined && totalCount != null && totalCount > 0) {
+                            toastr.info("温馨提示：您当前有 " + 1 + " 笔订单需要催收，总金额为：" + 2 + "元，成本 " + 3 + "元");
+            //             }
+            //         }
+            //     }
+            // });
+        // }
     })
 </script>
 </body>

@@ -22,7 +22,7 @@ var SweetAlert = function () {
         		var sa_cancelButtonClass = $(this).data('cancel-button-class');
         	
         		$(this).click(function(){
-        			//console.log(sa_btnClass);
+        			//console.logger(sa_btnClass);
         			swal({
 					  title: sa_title,
 					  text: sa_message,

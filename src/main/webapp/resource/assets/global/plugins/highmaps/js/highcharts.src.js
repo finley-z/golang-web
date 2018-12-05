@@ -3408,7 +3408,7 @@ SVGRenderer.prototype = {
 				pos += increment;
 			}
 		}
-		console.log(finalPos, node.getSubStringLength(0, finalPos))
+		console.logger(finalPos, node.getSubStringLength(0, finalPos))
 	},
 	*/
 
@@ -7027,13 +7027,13 @@ Axis.prototype = {
 			val = val * sign + cvsOffset;
 			val -= minPixelPadding;
 			returnValue = val / localA + localMin; // from chart pixel to value
-			if (doPostTranslate) { // log and ordinal axes
+			if (doPostTranslate) { // logger and ordinal axes
 				returnValue = axis.lin2val(returnValue);
 			}
 
 		// From value to pixels
 		} else {
-			if (doPostTranslate) { // log and ordinal axes
+			if (doPostTranslate) { // logger and ordinal axes
 				val = axis.val2lin(val);
 			}
 			if (pointPlacement === 'between') {
@@ -7438,7 +7438,7 @@ Axis.prototype = {
 
 		if (isLog) {
 			if (!secondPass && mathMin(axis.min, pick(axis.dataMin, axis.min)) <= 0) { // #978
-				error(10, 1); // Can't plot negative values on log axis
+				error(10, 1); // Can't plot negative values on logger axis
 			}
 			// The correctFloat cures #934, float errors on full tens. But it
 			// was too aggressive for #4360 because of conversion back to lin,
@@ -13611,7 +13611,7 @@ Series.prototype = {
 		}
 
 		if (xAxis) {
-			xExtremes = xAxis.getExtremes(); // corrected for log axis (#3053)
+			xExtremes = xAxis.getExtremes(); // corrected for logger axis (#3053)
 			min = xExtremes.min;
 			max = xExtremes.max;
 		}
@@ -13769,7 +13769,7 @@ Series.prototype = {
 			yDataLength,
 			activeYData = [],
 			activeCounter = 0,
-			xExtremes = xAxis.getExtremes(), // #2117, need to compensate for log X axis
+			xExtremes = xAxis.getExtremes(), // #2117, need to compensate for logger X axis
 			xMin = xExtremes.min,
 			xMax = xExtremes.max,
 			validValue,
@@ -13850,7 +13850,7 @@ Series.prototype = {
 				pointStack,
 				stackValues;
 
-			// Discard disallowed y values for log axes (#3434)
+			// Discard disallowed y values for logger axes (#3434)
 			if (yAxis.isLog && yValue !== null && yValue <= 0) {
 				point.y = yValue = null;
 				error(10);

@@ -692,7 +692,7 @@
 								}
 								break;
 							default:
-								// console.log(e.which);
+								// console.logger(e.which);
 								break;
 							*/
 						}
@@ -6111,7 +6111,7 @@
 								e.preventDefault();
 								break;
 							default:
-								//console.log(e.which);
+								//console.logger(e.which);
 								break;
 						}
 					})

@@ -591,7 +591,7 @@ define("moxie/core/utils/Mime", [
 		"image/png,png," +
 		"image/svg+xml,svg svgz," +
 		"image/tiff,tiff tif," +
-		"text/plain,asc txt text diff log," +
+		"text/plain,asc txt text diff logger," +
 		"text/html,htm html xhtml," +
 		"text/css,css," +
 		"text/csv,csv," +

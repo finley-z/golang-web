@@ -471,7 +471,7 @@
         map.select(code, path);
       }
 
-      //console.log(selectedRegions);
+      //console.logger(selectedRegions);
 
     });
 

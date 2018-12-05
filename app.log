@@ -1,0 +1,59 @@
+2018-12-05 16:39:55 [INFO] [main/main.go:12] app start 
+2018-12-05 16:51:12 [INFO] [main/credit/core/Server.go:58] init serveMux success !
+2018-12-05 16:51:12 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ / ]
+2018-12-05 16:51:12 [INFO] [main/credit/core/Server.go:44] the controller  /  register success !
+2018-12-05 16:51:12 [INFO] [main/credit/core/Server.go:51] attempt register the controller[ /resource/ ]
+2018-12-05 16:51:12 [INFO] [main/credit/core/Server.go:53] the controller  /resource/  register success !
+2018-12-05 16:51:12 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /main ]
+2018-12-05 16:51:12 [INFO] [main/credit/core/Server.go:44] the controller  /main  register success !
+2018-12-05 16:51:12 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /login ]
+2018-12-05 16:51:12 [INFO] [main/credit/core/Server.go:44] the controller  /login  register success !
+2018-12-05 16:51:12 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /register ]
+2018-12-05 16:51:12 [INFO] [main/credit/core/Server.go:44] the controller  /register  register success !
+2018-12-05 16:51:12 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-05 16:51:12 [INFO] [main/credit/core/Server.go:21] server starting.... , the port is: :8080
+2018-12-05 16:51:53 [INFO] [main/credit/core/Server.go:58] init serveMux success !
+2018-12-05 16:51:53 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ / ]
+2018-12-05 16:51:53 [INFO] [main/credit/core/Server.go:44] the controller  /  register success !
+2018-12-05 16:51:53 [INFO] [main/credit/core/Server.go:51] attempt register the controller[ /resource/ ]
+2018-12-05 16:51:53 [INFO] [main/credit/core/Server.go:53] the controller  /resource/  register success !
+2018-12-05 16:51:53 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /main ]
+2018-12-05 16:51:53 [INFO] [main/credit/core/Server.go:44] the controller  /main  register success !
+2018-12-05 16:51:53 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /login ]
+2018-12-05 16:51:53 [INFO] [main/credit/core/Server.go:44] the controller  /login  register success !
+2018-12-05 16:51:53 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /register ]
+2018-12-05 16:51:53 [INFO] [main/credit/core/Server.go:44] the controller  /register  register success !
+2018-12-05 16:51:53 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-05 16:51:53 [INFO] [main/credit/core/Server.go:21] server starting.... , the port is: :8080
+2018-12-05 16:52:05 [DEBG] [main/credit/manage/controller/ManageController.go:24] request url [ / ] the remote address is: 0x4d88a0
+2018-12-05 16:53:16 [INFO] [main/credit/core/Server.go:58] init serveMux success !
+2018-12-05 16:53:16 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ / ]
+2018-12-05 16:53:16 [INFO] [main/credit/core/Server.go:44] the controller  /  register success !
+2018-12-05 16:53:16 [INFO] [main/credit/core/Server.go:51] attempt register the controller[ /resource/ ]
+2018-12-05 16:53:16 [INFO] [main/credit/core/Server.go:53] the controller  /resource/  register success !
+2018-12-05 16:53:16 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /main ]
+2018-12-05 16:53:16 [INFO] [main/credit/core/Server.go:44] the controller  /main  register success !
+2018-12-05 16:53:16 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /login ]
+2018-12-05 16:53:16 [INFO] [main/credit/core/Server.go:44] the controller  /login  register success !
+2018-12-05 16:53:16 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /register ]
+2018-12-05 16:53:16 [INFO] [main/credit/core/Server.go:44] the controller  /register  register success !
+2018-12-05 16:53:16 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-05 16:53:16 [INFO] [main/credit/core/Server.go:21] server starting.... , the port is: :8080
+2018-12-05 16:54:15 [DEBG] [main/credit/manage/controller/ManageController.go:24] request url [ / ] the remote address is: 0x4d88a0
+2018-12-05 16:55:03 [INFO] [main/credit/core/Server.go:58] init serveMux success !
+2018-12-05 16:55:03 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ / ]
+2018-12-05 16:55:03 [INFO] [main/credit/core/Server.go:44] the controller  /  register success !
+2018-12-05 16:55:03 [INFO] [main/credit/core/Server.go:51] attempt register the controller[ /resource/ ]
+2018-12-05 16:55:03 [INFO] [main/credit/core/Server.go:53] the controller  /resource/  register success !
+2018-12-05 16:55:03 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /main ]
+2018-12-05 16:55:03 [INFO] [main/credit/core/Server.go:44] the controller  /main  register success !
+2018-12-05 16:55:03 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /login ]
+2018-12-05 16:55:03 [INFO] [main/credit/core/Server.go:44] the controller  /login  register success !
+2018-12-05 16:55:03 [INFO] [main/credit/core/Server.go:42] attempt register the controller[ /register ]
+2018-12-05 16:55:03 [INFO] [main/credit/core/Server.go:44] the controller  /register  register success !
+2018-12-05 16:55:03 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-05 16:55:03 [INFO] [main/credit/core/Server.go:21] server starting.... , the port is: :8080
+2018-12-05 16:55:09 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ / ] the remote address is: [::1]:50798
+2018-12-05 16:55:37 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /user/isUserNameExist ] the remote address is: [::1]:50798
+2018-12-05 16:55:48 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /user/isUserNameExist ] the remote address is: [::1]:50836
+2018-12-05 17:51:09 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /favicon.ico ] the remote address is: 127.0.0.1:52759

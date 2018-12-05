@@ -488,7 +488,7 @@ var Notice = function () {
 }();
 jQuery(document).ready(function () {
     Table.init();
-    Dictionary.init();
+    // Dictionary.init();
     ImageUtil.init();
     //Common.initFancybox();
 });

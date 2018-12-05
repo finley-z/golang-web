@@ -54,7 +54,7 @@ var ComponentsBootstrapMultiselect = function () {
         			onDropdownHide: dropdownhide,
         			buttonClass: btn_class,
         			//optionClass: function(element) { return "mt-checkbox"; },
-        			//optionLabel: function(element) { console.log(element); return $(element).html() + '<span></span>'; },
+        			//optionLabel: function(element) { console.logger(element); return $(element).html() + '<span></span>'; },
         			/*templates: {
 		                li: li_template,
 		            }*/
