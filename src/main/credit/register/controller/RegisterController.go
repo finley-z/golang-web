@@ -11,6 +11,7 @@ import (
 	"io"
 	model2 "main/credit/common/model"
 	"encoding/json"
+	"main/credit/common/util"
 )
 
 func registerIndex(w http.ResponseWriter, r *http.Request) {
@@ -20,6 +21,7 @@ func registerIndex(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	t.Execute(w, nil)
+
 }
 
 func register(w http.ResponseWriter, r *http.Request) {
@@ -32,6 +34,9 @@ func register(w http.ResponseWriter, r *http.Request) {
 	user.Gender = 1
 	user.Email = "573108440@qq.com"
 	user.Mobile = "13027236862"
+
+	pwd:=util.EncryptSHA256(user.Password)
+	user.Password = pwd
 	success := dao.Insert(user)
 	res:=model2.Result{success,"success",nil}
 	buf,_:=json.Marshal(res)
@@ -40,7 +45,6 @@ func register(w http.ResponseWriter, r *http.Request) {
 
 func init() {
 	//fmt.Println("start register register controller!")
-
 	core.RegisterFunc("/register.html", registerIndex)
 	core.RegisterFunc("/register", register)
 	//fmt.Println("register controller register success!")

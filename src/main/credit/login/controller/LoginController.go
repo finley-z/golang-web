@@ -20,8 +20,6 @@ func login(w http.ResponseWriter, r *http.Request) {
 
 func init()  {
 	//fmt.Println("start register login controller!")
-
 	core.RegisterFunc("/login.html",login)
 	//fmt.Println("login controller register success!")
-
 }

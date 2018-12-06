@@ -19,6 +19,7 @@ type Redis struct {
 
 type AppConfig struct {
 	ServerPort string `json:"server_port"`
+	PasswordSalt string `json:"password_salt"`
 	AppName string `json:"app_name"`
 	AppHome string `json:"app_home"`
 	WebApp WebApp `json:"web_app"`
