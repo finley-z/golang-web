@@ -22,7 +22,7 @@ func mange(w http.ResponseWriter, r *http.Request) {
 func NotFoundHandler(w http.ResponseWriter, r *http.Request) {
 	logger.Debug("request url [",r.URL.Path,"]","the remote address is:",r.RemoteAddr)
 	if r.URL.Path == "/" {
-		http.Redirect(w, r, "/main", http.StatusFound)
+		http.Redirect(w, r, "/main.html", http.StatusFound)
 	}
 
 	t, err := template.ParseFiles(common.AppConf.AppHome+common.AppConf.WebApp.TemplateDir+"/error/page-404.html")

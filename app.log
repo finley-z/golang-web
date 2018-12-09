@@ -773,3 +773,156 @@
 2018-12-06 09:30:26 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
 2018-12-06 09:30:30 [INFO] [main/credit/register/dao/RegisterDao.go:25] insert  result :affected  1  rows
 2018-12-06 09:30:30 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /favicon.ico ] the remote address is: [::1]:57355
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-09 20:52:11 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-09 20:52:11 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-09 20:52:11 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-09 20:53:26 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-09 20:53:26 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-09 20:53:26 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-09 20:54:17 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /login ] the remote address is: [::1]:59436
+2018-12-09 20:54:17 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /login ] the remote address is: [::1]:59437
+2018-12-09 20:54:17 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /login ] the remote address is: [::1]:59438
+2018-12-09 20:54:19 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /login ] the remote address is: [::1]:59440
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-09 20:55:11 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-09 20:55:11 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-09 20:55:11 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-09 20:55:14 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /login ] the remote address is: [::1]:59451
+2018-12-09 20:56:01 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /login ] the remote address is: [::1]:59479
+2018-12-09 20:56:13 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /login ] the remote address is: [::1]:59479
+2018-12-09 20:56:26 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:59479
+2018-12-09 20:56:37 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-09 20:56:37 [INFO] [main/credit/register/dao/RegisterDao.go:25] insert  result :affected  1  rows
+2018-12-09 20:56:37 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /main ] the remote address is: [::1]:59479
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-09 20:57:43 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-09 20:57:43 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-09 20:57:43 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-09 20:57:47 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:59498
+2018-12-09 20:57:52 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-09 20:57:52 [INFO] [main/credit/register/dao/RegisterDao.go:25] insert  result :affected  1  rows
+2018-12-09 20:57:52 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:59502
+2018-12-09 21:05:41 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ / ] the remote address is: [::1]:59720
+2018-12-09 21:05:41 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /main ] the remote address is: [::1]:59720
+2018-12-09 21:05:43 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ / ] the remote address is: [::1]:59720
+2018-12-09 21:05:43 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /main ] the remote address is: [::1]:59720
+2018-12-09 21:05:44 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ / ] the remote address is: [::1]:59720
+2018-12-09 21:05:44 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /main ] the remote address is: [::1]:59720
+2018-12-09 21:05:48 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ / ] the remote address is: [::1]:59720
+2018-12-09 21:05:48 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /main ] the remote address is: [::1]:59720
+2018-12-09 21:05:48 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ / ] the remote address is: [::1]:59720
+2018-12-09 21:05:48 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /main ] the remote address is: [::1]:59720
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-09 21:08:17 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-09 21:08:17 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-09 21:08:17 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-09 21:08:22 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ / ] the remote address is: [::1]:59747
+2018-12-09 21:08:22 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:59747
+2018-12-09 21:08:23 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ / ] the remote address is: [::1]:59747
+2018-12-09 21:08:24 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:59747
+2018-12-09 21:08:39 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ / ] the remote address is: [::1]:59747
+2018-12-09 21:08:40 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:59747
+2018-12-09 21:08:46 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:59792
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-09 21:09:55 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-09 21:09:55 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-09 21:09:58 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:59859
+2018-12-09 21:10:04 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:59859
+2018-12-09 21:10:14 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:59859
+2018-12-09 21:28:55 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:60112
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:57] init serveMux success !
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ / ]
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:43] the controller  /  register success !
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:50] attempt register the controller[ /resource/ ]
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:52] the controller  /resource/  register success !
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /main.html ]
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:43] the controller  /main.html  register success !
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /login.html ]
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:43] the controller  /login.html  register success !
+2018-12-09 22:58:29 [INFO] [main/credit/common/dao/DBHolder.go:22] init DBHolder the config is : {mysql 47.104.15.216 root Wp123456! loan_sys}
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register.html ]
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:43] the controller  /register.html  register success !
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:41] attempt register the controller[ /register ]
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:43] the controller  /register  register success !
+2018-12-09 22:58:29 [INFO] [main/main.go:13] application  credit starting... 
+2018-12-09 22:58:29 [INFO] [main/credit/core/Server.go:20] server starting.... , the port is: :8080
+2018-12-09 22:58:38 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:61359
+2018-12-09 22:58:40 [INFO] [main/credit/register/dao/RegisterDao.go:11] insert into crm_user (user_name,gender,real_name,password,email,phone) values(?,?,?,?,?,?)
+2018-12-09 22:58:41 [INFO] [main/credit/register/dao/RegisterDao.go:25] insert  result :affected  1  rows
+2018-12-09 22:58:41 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:61359
+2018-12-09 22:58:53 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ / ] the remote address is: [::1]:61359
+2018-12-09 22:58:54 [DEBG] [main/credit/manage/controller/ManageController.go:23] request url [ /dictionary/getDictionaryMap ] the remote address is: [::1]:61359

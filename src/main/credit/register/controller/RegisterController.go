@@ -8,9 +8,6 @@ import (
 	"main/credit/components/logger"
 	"main/credit/register/model"
 	"main/credit/register/dao"
-	"io"
-	model2 "main/credit/common/model"
-	"encoding/json"
 	"main/credit/common/util"
 )
 
@@ -38,9 +35,21 @@ func register(w http.ResponseWriter, r *http.Request) {
 	pwd:=util.EncryptSHA256(user.Password)
 	user.Password = pwd
 	success := dao.Insert(user)
-	res:=model2.Result{success,"success",nil}
-	buf,_:=json.Marshal(res)
-	io.WriteString(w,string(buf))
+	if success{
+		http.Redirect(w, r, "/main.html", http.StatusMovedPermanently)
+	}else{
+		t, err := template.ParseFiles(common.AppConf.AppHome+common.AppConf.WebApp.TemplateDir+"/register.html", common.AppConf.AppHome+common.AppConf.WebApp.TemplateDir+"/template/header.html", common.AppConf.AppHome+common.AppConf.WebApp.TemplateDir+"/template/footer.html")
+		if err != nil {
+			logger.Error("parse template error:" + err.Error())
+			return
+		}
+
+		t.Execute(w, user)
+	}
+
+//	res:=model2.Result{success,"success",nil}
+//	buf,_:=json.Marshal(res)
+//	io.WriteString(w,string(buf))
 }
 
 func init() {

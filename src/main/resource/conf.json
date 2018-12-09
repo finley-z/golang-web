@@ -1,6 +1,6 @@
 {
   "app_name":"credit",
-  "app_home":"D:/go/golang-web/src/main",
+  "app_home":"/Users/finley/Documents/代码管理/golang-web/src/main",
   "server_port":":8080",
   "password_salt":":235dffgrsgs234",
   "web_app":{
