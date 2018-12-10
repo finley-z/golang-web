@@ -1,4 +1,4 @@
-package util
+package session
 
 import (
 	"time"
@@ -163,7 +163,7 @@ type SessionManager struct {
 //实例化一个session管理器
 func NewSessionManager() *SessionManager {
 	sessionManager := &SessionManager{
-		cookieName: "lzy-cookie",
+		cookieName: "go-session_id",
 		storage:    newFromMemory(), //默认以内存实现
 		maxAge:     60 * 30,         //默认30分钟
 	}
@@ -177,7 +177,7 @@ func (m *SessionManager) GetCookieN() string {
 }
 
 //先判断当前请求的cookie中是否存在有效的session,存在返回，不存在创建
-func (m *SessionManager) BeginSession(w http.ResponseWriter, r *http.Request) Session {
+func (m *SessionManager) GetSession(w http.ResponseWriter, r *http.Request) Session {
 	//防止处理时，进入另外的请求
 	m.lock.Lock()
 	defer m.lock.Unlock()

@@ -5,12 +5,13 @@ import (
 	"encoding/json"
 	"main/credit/components/logger"
 	"main/credit/common/conf"
+	"main/credit/components/session"
 )
 
 
 
 var AppConf conf.AppConfig
-
+var Session *session.SessionManager
 func init()  {
 	AppHome, err := os.Getwd()
 
@@ -32,4 +33,6 @@ func init()  {
 	if decerr != nil {
 		logger.Info("Decoder The Config File Fail,", decerr)
 	}
+
+	Session=session.NewSessionManager();
 }

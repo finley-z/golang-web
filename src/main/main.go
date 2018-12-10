@@ -13,10 +13,4 @@ func main() {
 	logger.Info("application ",common.AppConf.AppName,"starting... ")
 	core.Start()
 	logger.Info("application ",common.AppConf.AppName,"start success! ")
-
 }
-
-
-
-
-
